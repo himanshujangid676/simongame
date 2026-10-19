@@ -1,48 +1,48 @@
 # 🎮 Simon Memory Game
 
-A modern, sleek implementation of the classic **Simon Memory Game** built using pure HTML, CSS, and vanilla JavaScript.
+A sleek, modern implementation of the classic **Simon Memory Game** built using pure HTML5, CSS3, and Vanilla JavaScript.
 
-Unlike standard Simon games that replay the entire sequence every round, this version features a **Single-Flash Memory Challenge**: only *one* new tile flashes per level, testing your ability to memorize and repeat the entire accumulated sequence!
+Unlike standard Simon games that replay the full pattern every round, this version features a **Single-Flash Memory Challenge** — only *one* new tile blinks per level, testing your ability to recall and repeat the entire accumulated sequence purely from memory!
 
 ---
 
 ## 🚀 Live Demo
 
-👉 **Play the Game Live:** [https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/)
+👉 **Play the game live:** [https://himanshujangid676.github.io/simongame/](https://himanshujangid676.github.io/simongame/)
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-* 🧠 **Single-Flash Memory Mode:** Only 1 new tile blinks per round—you must remember the full pattern from memory.
-* 🏆 **High Score Tracker:** Automatically tracks and saves your highest score during the session.
-* 🎨 **Modern Dark Aesthetic:** Designed with neon glow effects, smooth CSS transitions, and glassmorphism UI elements.
-* 📱 **Fully Responsive:** Playable across all screen sizes with touch-friendly controls or keyboard triggers (`Enter` / `Space`).
-* ⚡ **Zero Dependencies:** Built entirely with vanilla web technologies for lightning-fast loading.
+* 🧠 **Single-Flash Memory Mode:** Only the newest tile blinks each round. You must remember the full sequence from Level 1.
+* 🏆 **High Score Tracker:** Automatically tracks and displays your highest score during the session.
+* 🎨 **Modern Dark UI:** Glassmorphism dashboard, neon tile glow animations, and active state feedback.
+* 📱 **Responsive & Mobile Friendly:** Fully playable via touch, mouse clicks, or keyboard (`Enter` / `Space`).
+* ⚡ **Zero Dependencies:** Pure vanilla web technologies for instant loading and lightweight performance.
 
 ---
 
 ## 🎮 How to Play
 
-1. Tap **START** (or press `Enter` / `Space`) to begin.
-2. Watch closely as **one tile blinks**.
-3. Repeat the sequence by tapping the tiles in the exact order from level 1.
-4. Each level adds one new color to the sequence.
-5. One wrong tap results in a **Game Over**!
+1. Tap **START** (or press `Enter` / `Space`) to start the game.
+2. Watch closely as **a single tile blinks**.
+3. Repeat the full sequence from memory by tapping the tiles in the exact order.
+4. Each level adds one new tile to the sequence.
+5. One wrong tap ends the game!
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **HTML5:** Semantic structure and layout.
-* **CSS3:** Custom properties, CSS Grid/Flexbox, neon glow effects, and animations.
-* **JavaScript (ES6+):** Dynamic DOM manipulation, state management, and sequence tracking.
+* **HTML5:** Semantic markup & structure
+* **CSS3:** Flexbox, CSS Grid, custom properties, neon glow shadows, and keyframe animations
+* **JavaScript (ES6+):** Game state management, sequence verification, and dynamic DOM interaction
 
 ---
 
 ## 📁 File Structure
 
 ```text
-├── index.html    # Game layout & UI components
-├── style.css     # Modern dark mode styling & animations
-└── app.js        # Core game logic, input locking, & high scores
+├── index.html    # Structure & layout
+├── style.css     # Dark aesthetic, neon flashes & responsive layout
+└── app.js        # Memory logic, input locking & score tracking
