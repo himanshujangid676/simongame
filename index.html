@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="game-card">
+        <header class="game-header">
+            <h1>SIMON</h1>
+            <p class="subtitle">Single-Flash Memory Challenge</p>
+            
+            <div class="stats-container">
+                <div class="stat-box">
+                    <span class="stat-label">LEVEL</span>
+                    <span class="stat-value" id="level-display">0</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">HIGH SCORE</span>
+                    <span class="stat-value" id="high-score-display">0</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="simon-board">
+            <div class="tile green" id="green" data-color="green"></div>
+            <div class="tile red" id="red" data-color="red"></div>
+            <div class="tile yellow" id="yellow" data-color="yellow"></div>
+            <div class="tile blue" id="blue" data-color="blue"></div>
+            
+            <div class="center-console">
+                <button id="start-btn" class="action-btn">START</button>
+                <div id="status-text" class="status-message">Press Start</div>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
